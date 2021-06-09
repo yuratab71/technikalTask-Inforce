@@ -7,15 +7,6 @@ import "./card.css";
 
 function CreateForm(props) {
 
-    let obj = {
-        name: props.item.name,
-        imageUrl: props.item.imageUrl,
-        count: props.item.count,
-        weight: props.item.weight,
-        width: props.item.size.width,
-        height: props.item.size
-    }
-
     return (
         <div className="form-update">
             <Formik initialValues={{
