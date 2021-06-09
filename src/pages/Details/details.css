@@ -1,0 +1,23 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4rem;
+
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo {
+    width: 200px;
+    object-fit: contain;
+}
+
+.comment-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
